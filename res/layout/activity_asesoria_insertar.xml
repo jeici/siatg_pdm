@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="10dip"
+	android:stretchColumns="1" >
+<TableRow>
+	<TextView android:text="@string/id_asesoria"/>
+	<EditText
+	android:id="@+id/editId_asesoria"
+	android:inputType="text"
+	android:maxLength="7" />
+</TableRow>
+
+<TableRow>
+	<TextView android:text="@string/id_tg" />
+	<EditText
+	android:id="@+id/editId_tg"
+	android:inputType="text"
+	android:maxLength="7" />
+</TableRow>
+
+<TableRow>
+    
+<TextView android:text="@string/hora_asesoria" />
+	<EditText
+	android:id="@+id/editHora_asesoria"
+	android:inputType="text"
+	android:maxLength="8" />
+</TableRow>
+
+<TableRow>
+	<TextView android:text="@string/num_asesoria" />
+	<EditText
+	android:id="@+id/editNum_asesoria"
+	android:inputType="number"
+	android:maxLength="4" />
+</TableRow>
+
+<TableRow>
+	<TextView android:text="@string/fecha_asesoria" />
+	<EditText
+	android:id="@+id/editFecha_asesoria"
+	android:inputType="text"
+	android:maxLength="4" />
+</TableRow>
+
+
+<TableRow>
+	<TextView android:text="@string/observacion_a" />
+	<EditText
+	android:id="@+id/editObservacion_a"
+	android:inputType="number"
+	android:maxLength="4" />
+</TableRow>
+
+
+
+<TableRow>
+
+<TextView android:text="@string/opciones" />
+	</TableRow>
+	<TableRow>
+	<Button
+	android:onClick="insertarAsesoria"
+	android:text="@string/insertar" />
+	<Button
+	android:onClick="limpiarTexto"
+	android:text="@string/limpiar" />
+	</TableRow>
+</TableLayout>

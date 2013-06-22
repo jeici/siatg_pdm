@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/carnet"/>
+<EditText
+	android:id="@+id/editCarnet"
+	android:layout_width="200dp"
+	android:layout_height="wrap_content"
+	android:inputType="text"
+	android:maxLength="7"/>
+
+<LinearLayout
+	android:id="@+id/linearLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+<Button
+	android:id="@+id/botonConsultar"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/consultar"
+	android:onClick="consultarAlumno"/>
+<Button
+	android:id="@+id/botonLimpiar"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/limpiar"
+	android:onClick="limpiarTexto"/>
+</LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/id_integrante"/>
+<EditText
+	android:id="@+id/editid_integrante"
+	android:layout_width="200dp"
+	android:layout_height="wrap_content"
+	android:inputType="text"
+	android:maxLength="7"/>
+<TextView
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/telefono_a"/>
+<EditText
+	android:id="@+id/editTelefono_a"
+	android:layout_width="200dp"
+	android:layout_height="wrap_content"
+	android:inputType="text"
+	android:maxLength="9"/>
+<TextView
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/correo_a"/>
+<EditText
+	android:id="@+id/editCorreo_a"
+	android:layout_width="200dp"
+	android:layout_height="wrap_content"
+	android:inputType="text"
+	android:maxLength="100"/>
+<TextView
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/nombres_a"/>
+<EditText
+	android:id="@+id/editNombres_a"
+	android:layout_width="200dp"
+	android:layout_height="wrap_content"
+	android:inputType="text"
+	android:maxLength="50"/>
+<TextView
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/apellidos_a"/>
+<EditText
+	android:id="@+id/editApellidos_a"
+	android:layout_width="200dp"
+	android:layout_height="wrap_content"
+	android:inputType="text"
+	android:maxLength="50"/>
+<TextView
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/direccion"/>
+<EditText
+	android:id="@+id/editDireccion"
+	android:layout_width="200dp"
+	android:layout_height="wrap_content"
+	android:inputType="text"
+	android:maxLength="100"/>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:stretchColumns="1">
+   <TableRow>
+    <TextView 
+        android:text="@string/id_tipo_proyecto"/>
+    <EditText 
+        android:id="@+id/editIdTipoProyecto"
+        android:inputType="text"
+        android:maxLength="7"/>
+    </TableRow>
+    <TableRow>
+     <TextView
+        android:text="@string/nombre_pry"/>
+    <EditText
+        android:id="@+id/editNombrePry"
+        android:inputType="text"
+        android:maxLength="50"/>
+    </TableRow>
+     <TableRow>
+        <Button 
+            android:text="@string/actualizar"
+            android:onClick="actualizarTipoProyecto"/>
+      </TableRow>
+      <TableRow>
+        <Button  
+           	android:text="@string/limpiar"
+            android:onClick="limpiarTexto"/>
+    </TableRow>
+   
+</TableLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="30dip"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <TextView android:text="@string/id_docente" />
+
+        <EditText
+            android:id="@+id/editId_docente"
+            android:inputType="text"
+            android:maxLength="7" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/can_perfiles_apr" />
+        <EditText
+            android:id="@+id/editCan_perfiles_apr"
+            android:inputType="number"
+            android:maxLength="3" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/can_perfiles_rep" />
+        <EditText
+            android:id="@+id/editCan_perfiles_rep"
+            android:inputType="number"
+            android:maxLength="3" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/correo_d" />
+        <EditText
+            android:id="@+id/editCorreo_d"
+            android:inputType="text"
+            android:maxLength="30" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView android:text="@string/nombres_d" />
+        <EditText
+            android:id="@+id/editNombres_d"
+            android:inputType="text"
+            android:maxLength="30" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView android:text="@string/apellidos_d" />
+        <EditText
+            android:id="@+id/editApellidos_d"
+            android:inputType="text"
+            android:maxLength="30" />
+    </TableRow>
+    
+   
+    
+ 	<TableRow>
+    		 <TextView android:text="@string/opciones" />
+    </TableRow>
+    
+    <TableRow>
+        <Button
+            android:onClick="insertardocente"
+            android:text="@string/insertar" />
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+
+</TableLayout>

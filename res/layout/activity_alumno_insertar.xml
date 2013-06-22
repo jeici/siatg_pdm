@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:paddingTop="30dip"
+android:stretchColumns="1" >
+<TableRow>
+<TextView android:text="@string/carnet"/>
+<EditText
+android:id="@+id/editCarnet"
+android:inputType="text"
+android:maxLength="7" />
+</TableRow>
+<TableRow>
+<TextView android:text="@string/id_integrante" />
+<EditText
+android:id="@+id/editId_integrante"
+android:inputType="text"
+android:maxLength="7" />
+</TableRow>
+
+<TableRow>
+<TextView android:text="@string/nombres_a" />
+<EditText
+android:id="@+id/editNombres_a"
+android:inputType="text"
+android:maxLength="50" />
+</TableRow>
+<TableRow>
+<TextView android:text="@string/apellidos_a" />
+<EditText
+android:id="@+id/editApellidos_a"
+android:inputType="text"
+android:maxLength="50" />
+</TableRow>
+
+
+
+<TableRow>
+<TextView android:text="@string/telefono_a" />
+<EditText
+android:id="@+id/editTelefono_a"
+android:inputType="text"
+android:maxLength="9" />
+</TableRow>
+
+<TableRow>
+<TextView android:text="@string/direccion" />
+<EditText
+android:id="@+id/editDireccion"
+android:inputType="text"
+android:maxLength="100" />
+</TableRow>
+
+
+
+<TableRow>
+<TextView android:text="@string/correo_a" />
+<EditText
+android:id="@+id/editCorreo_a"
+android:inputType="text"
+android:maxLength="100" />
+</TableRow>
+
+
+
+<TableRow>
+<TextView android:text="@string/opciones" />
+</TableRow>
+<TableRow>
+<Button
+android:onClick="insertarAlumno"
+android:text="@string/insertar" />
+<Button
+android:onClick="limpiarTexto"
+android:text="@string/limpiar" />
+</TableRow>
+</TableLayout>
