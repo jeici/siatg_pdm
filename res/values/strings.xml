@@ -145,42 +145,12 @@
     <string name="title_activity_alumno_consultar">AlumnoConsultarActivity</string>
     <string name="title_activity_alumno_actualizar">AlumnoActualizarActivity</string>
     <string name="title_activity_alumno_eliminar">AlumnoEliminarActivity</string>
+    <string name="title_activity_gps">GPSActivity</string>
+    <string name="txtAltitud">Altitud</string>
+    <string name="txtLatitud">Latitud</string>
+    <string name="txtLongitud">Longitud</string>
+    <string name="txtDireccion">Direccion</string>
+    <string name="btnObtenerDatos">Obtener Datos Direccion</string>
+    
 
 </resources>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
