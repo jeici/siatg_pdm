@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
+    <uses-permission  android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -289,6 +290,10 @@
         <activity
             android:name="sv.edu.fia.ues.siatg.DocenteasignadoEliminarActivity"
             android:label="@string/title_activity_docenteasignado_eliminar" >
+        </activity>
+        <activity
+            android:name="sv.edu.fia.ues.siatg.GPSActivity"
+            android:label="@string/title_activity_gps" >
         </activity>
     </application>
 
