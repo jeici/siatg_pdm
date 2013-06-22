@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 public class Menuprincipal extends ListActivity {
 
-	String[] menu={"Tipo de proyecto","Perfil","Revisión de perfil","Docente","Grupo TG","Integrantes de grupo","Alumno","Trabajo de Graduacion","Nota","Defensa","Etapa","Asesoria","Detalle Nota","Asistencia","Ubicacion","Docente Asignado","LLenar Base de Datos"};
-	String[] activities={"TipoProyectoMenuActivity","PerfilMenuActivity","RevisionperfilMenuActivity","DocenteMenuActivity","GrupoTGMenuActivity","IntegrantegrupoMenuActivity","AlumnoMenuActivity","8","9","DefensaMenuActivity","11","AsesoriaMenuActivity","DetalleNotaMenuActivity","AsistenciaMenuActivity","UbicacionMenuActivity","DocenteasignadoMenuActivity"};
+	String[] menu={"Tipo de proyecto","Perfil","Revisión de perfil","Docente","Grupo TG","Integrantes de grupo","Alumno","Trabajo de Graduacion","Nota","Defensa","Etapa","Asesoria","Detalle Nota","Asistencia","Ubicacion","Docente Asignado","GPS","LLenar Base de Datos"};
+	String[] activities={"TipoProyectoMenuActivity","PerfilMenuActivity","RevisionperfilMenuActivity","DocenteMenuActivity","GrupoTGMenuActivity","IntegrantegrupoMenuActivity","AlumnoMenuActivity","8","9","DefensaMenuActivity","11","AsesoriaMenuActivity","DetalleNotaMenuActivity","AsistenciaMenuActivity","UbicacionMenuActivity","DocenteasignadoMenuActivity","GPSActivity"};
 	ControlBD BDhelper;
 	
 	@Override
@@ -23,7 +23,7 @@ public class Menuprincipal extends ListActivity {
 	@Override
 	protected void onListItemClick(ListView l,View v,int position,long id){
 		super.onListItemClick(l, v, position, id);
-		if(position!=16){
+		if(position!=17){
 			String nombreValue=activities[position];
 		try{
 			Class<?> clase=Class.forName("sv.edu.fia.ues.siatg."+nombreValue);
