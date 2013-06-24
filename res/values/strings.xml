@@ -151,6 +151,9 @@
     <string name="txtLongitud">Longitud</string>
     <string name="txtDireccion">Direccion</string>
     <string name="btnObtenerDatos">Obtener Datos Direccion</string>
-    
+    <string name="title_activity_zxing_demo">ZXingDemoActivity</string>
+    <string name="hello">Hello World, ZXingDemoActivity!</string>
+    <string name="title_activity_logo">Logo</string>
+    <string name="title_activity_web_service_hosting">WebServiceHostingActivity</string>
 
 </resources>
